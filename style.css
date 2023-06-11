@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #191d5f;
+	
+}
+
+.lists {
+	width: 100%;
+    min-height: 100vh;
+    background-color: #191d5f;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.list{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px solid white;
+}
+
+.list-item{
+	background: red;
+    height: 60px;
+    margin: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: grab;
+}
+
